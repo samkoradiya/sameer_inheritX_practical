@@ -1,0 +1,115 @@
+body{ font-family: 'Oswald';}
+.container{max-width: 1180px !important;padding:0 15px !important;}
+input:focus{outline: none;border:none;box-shadow: none;}
+
+.title label{color:#D1143E;font-size: 24px;line-height: 50px;letter-spacing: 1px;text-transform: uppercase;font-weight: 500;}
+.title h2{font-size: 36px;line-height: 50px;letter-spacing: 1px;color:#2F2F2F;font-weight: 400;text-transform: uppercase;}
+
+
+/* Header css start */
+.header{padding:0;position: relative;}
+.header .navbar-brand{position: absolute;margin: 0 auto;width: 100%;left:0;right:0;z-index: 22;width: 150px;}
+.menu-list{width: 100%;display: flex;justify-content: center;padding: 66px 0 59px;position: relative;z-index: 1;}
+.menu-list .nav-link{padding: 0;color:#fff;font-weight: 400;text-transform: capitalize;transition: 0.4s;-moz-transition: 0.4s;-webkit-transition: 0.4s;-o-transition: 0.4s;}
+.menu-list .nav-link:hover,.menu-list .nav-link.active, .menu-list .nav-link.show{color:#D1143E;}
+
+.menu-list .nav-link:not(:last-child){margin:0 32px;}
+.menu-list .nav-link:nth-child(4){margin: 0 84px 0 32px;}
+.menu-list .nav-link:nth-child(5){margin: 0 32px 0 83px;}
+.menu-list .nav-link{padding: 0px !important;}
+
+
+/* banner css start  */
+
+.banner{background: url(../../public/image/banner.jpg) no-repeat;background-size: cover;height: 650px;margin-top: -149px;position: relative;}
+.banner-box{display: flex;flex-direction: column;position: absolute;top:50%;transform: translateY(-50%);left:0;right:0;margin: 0 auto;width: 100%;max-width:865px;text-align: center;}
+.banner-box h1{color:#fff;font-size:42px;line-height: 60px;font-weight: 500;margin-bottom: 17px;text-transform: uppercase;transform: skew(355deg);}
+.banner-box p{width: 100%;max-width:687px;margin: 0 auto;color:#fff;font-size: 16px;line-height: 25px;}
+
+
+/* match section css start  */
+
+.match-section{display: flex;flex-direction: row;width: 100%;margin-top: -47px;overflow: hidden;}
+.match-row{display: flex;flex-direction: row;align-items: center;width: 100%;position: relative;}
+.match-search-box{position: relative;padding: 61px 0 62px;width: 55%;}
+.match-search-box::before{content: "";position: absolute;background-color:#17345A;width: 100%;height: 100%;transform: skew(350deg);top:0;left: 0;z-index: 11;}
+.match-search-box::after{content: "";position: absolute;left:0;top:0;width: 200px;background-color: #17345A;height: 100%;z-index: 1;}
+.match-form{position: relative;z-index: 11;width:467px;margin: 0 112px;display: flex;flex-direction: row;}
+.match-form .form-group{position: relative;width: calc(100% - 105px);}
+.match-form .input-form{background-color: #0F2139;border:none;font-size: 15px;font-weight: 300;line-height: 22px;padding:7px 40px 11px 39px;width: 100%;color:#B1B1B1;}
+.match-form .input-form::placeholder{color:#B1B1B1;}
+.match-form .form-group .search-icon{position: absolute;top:50%;transform: translateY(-50%);left:15px;display: flex;}
+.match-form button{width: 105px;background-color: #D1143E;color:#fff;font-size: 16px;text-transform: capitalize;line-height: 24px;font-weight: 600;border:none;overflow: hidden;position: relative;z-index: 11;letter-spacing: 1px;transition: 0.4s;}
+.match-form button::before{content: "";position: absolute;top:-22px;left:-126px;width: 150px;height: 100px;background-color: #F51E4E;z-index: -1;transform:skewX(297deg);}
+.match-form button:hover{background-color:#F51E4E;}
+.match-col-right{width: 50%;}
+.match-col-right::before{content: "";position: absolute;top:11%;left: 0;width: 100vw;height: 129px;background: url(/public/image/Rectangle.png) no-repeat;background-size: 100% 100%;}
+.match-detail{display: flex;flex-direction: column;width:100%;max-width: 317px;position: relative;z-index: 11;margin:0 auto;max-width: 316px;}
+.match-content{display: flex;flex-direction: column;text-align: center;width: 100%;margin-top: -65px;}
+.match-content p{color:#fff;font-size: 14px;line-height: 21px;font-weight: 500;letter-spacing: 1px;margin: 0;}
+.match-content label{color:#fff;font-size: 30px;font-weight: 500;line-height: 45px;letter-spacing: 1px;display: flex;align-items: center;justify-content: center;}
+.match-content label span{height: 4px;width: 18px;background-color: #fff;margin: 0 15px;display: inline-block;}
+.soccer-img{margin-top: 0px;}
+.match-img-row{display: flex;justify-content: space-between;width: 100%;position: relative;top:-32px;}
+
+
+/* about section css start  */
+
+.about-section{padding:90px 0px;display: flex;flex-direction: row;width: 100%;}
+.about-left{height: 100%;width: 100%;overflow: hidden;position: relative;transform: skewX(-10deg); position: relative;max-width: 562px;margin-left: 15px;}
+.about-left img{width: 100%;height: 100%;object-fit: cover;position: absolute;top:0;left:0;}
+.about-right{display: flex;flex-direction: column;align-items: start;position: relative;z-index: 11;margin-left: -5px;}
+.about-right h3{color:#D1143E;font-size: 24px;line-height: 50px;letter-spacing: 1px;text-transform: uppercase;font-weight: 500;margin: 0;}
+.about-right h2{font-size: 36px;color:#2F2F2F;line-height: 50px;font-weight: 500;margin-bottom: 17px;text-transform: uppercase;}
+.about-right p{text-align: left;color:#565656;font-size: 16px;line-height: 25px;font-weight: 400;margin-bottom: 35px;}
+.button-row{display: inline-block;overflow: hidden;}
+.primary-button{background-color: #D1143E;color:#fff;font-size: 16px;font-family: 'Poppins';text-transform: capitalize;line-height: 24px;font-weight: 600;border:none;overflow: hidden;position: relative;z-index: 11;letter-spacing: 1px;transition: 0.4s;padding:8px 15px;display: inline-block;text-decoration: none;}
+.primary-button::before{content: "";position: absolute;top:-0px;left:-63px;width: 100px;height: 42px;background-color: #F51E4E;z-index: -1;transform:skewX(116deg);transition: 0.4s;}
+.primary-button:hover{background-color: #F51E4E;}
+
+
+
+/* our team section css start  */
+
+.ourTeam .title{margin-bottom: 48px;}
+.ourTeam{display: flex;width: 100%;padding: 84px 0px 54px;}
+.team-box{width: 100%;height: 250px;overflow: hidden;transform: skew(-2deg);position: relative;}
+.team-box img{width: 100%;height: 100%;object-fit: cover;position: absolute;left: 0;top:0}
+.team-row{margin: 0 -20px;}
+.team-col{margin-bottom: 40px;padding:0 20px;}
+.team-col:nth-child(1),.team-col:nth-child(2),.team-col:nth-child(3){position: relative;left:8px}
+.subscribe-section{padding:54px 0 87px;width: 100%;max-width: 1140px;margin: 0 auto;display: flex;flex-direction: row;align-items: center;justify-content: space-between;}
+.subscribe-section .title{width: 100%;max-width: 427px;}
+.subscribe-form{display: flex;flex-direction: row;width: 100%;max-width: 439px;}
+.subscribe-form .form-group{width:calc(100% - 77px);position: relative;}
+.subscribe-form .form-group .input-field{color:#939393;color:#939393;font-size: 16px;letter-spacing: 0.16px;font-weight: 300;width: 100%;background-color:#F4F4F4;border:none;padding:13px 15px 13px 49px;}
+.subscribe-form .form-group .icon{position: absolute;top:50%;transform: translateY(-50%);left:16px;}
+.subscribe-form .button-row{height: 50px;width: 77px;}
+.subscribe-form .button-row .primary-button{width: 100%;height: 100%;}
+.subscribe-form .primary-button::before{top:-1px;left:-73px;height: 62px;width: 100px;transform:skewX(132deg);}
+
+/* footer css start  */
+
+.footer{background-color: #1F2123;padding:28px 0 0;width: 100%;overflow: hidden;}
+.footer .container > p{color: #CECECE;font-size: 16px;letter-spacing: 1px;text-transform: capitalize;line-height: 50px;width: 100%;text-align: center;margin: 0;}
+.footer-content{display: flex;flex-direction: row;align-items: center;margin: 0 auto 24px;width: 100%;max-width: 719px;}
+.footer-content .ft-col-1 {text-align: right;}
+.footer-content .ft-col-1 label{color: #D1143E;font-size: 18px;line-height: 50px;font-weight: 500;letter-spacing: 1px;text-transform: uppercase;}
+.footer-content .ft-col-1 p{color: #CECECE;font-size: 16px;line-height: 30px;letter-spacing: 1px;margin: 0;text-transform: uppercase;}
+.footer-content .ft-col-1.ft-col-2{text-align: left;}
+.footer-log{margin: 0 22px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
